@@ -1,0 +1,59 @@
+/* styles/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--card-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: transform 0.2s ease-in-out;
+}
+.brand:hover {
+  transform: scale(1.05);
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navLinks a {
+  color: var(--subtle-text-color);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navLinks a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--subtle-text-color);
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.logoutButton:hover {
+  color: var(--primary-color);
+}
+
+/* Add this to the bottom of styles/Navbar.module.css */
+.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
