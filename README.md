@@ -2,8 +2,6 @@
 
 A fully-featured music distribution dashboard built with Next.js and React. This project was created as a frontend assessment and includes all required features plus several bonus additions for an enhanced user experience and a polished UI.
 
-![Dashboard Screenshot](https://i.imgur.com/your-screenshot-url.png) 
-*(Suggestion: Replace the link above with a URL to a screenshot of your finished dashboard)*
 
 ---
 
